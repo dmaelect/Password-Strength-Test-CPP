@@ -22,7 +22,7 @@ If password contains space                                      Invalid
 
 #include <stdio.h>
 #include <conio.h>	// for clrscr() function
-#include <ctype.h>  // for islower, isupper, isdigit, ispunct, etc
+#include <ctype.h>  	// for islower, isupper, isdigit, ispunct, etc
 #include <iostream>
 
 using namespace std;
@@ -48,7 +48,7 @@ const int pwLength = 26;    // maximum password size allowed to be entered
 	  // functions for further testing and manipulations
 
 	strength = PwTest(pWord, iPwSize);	// call the test function.
-	Results(strength);					// call the Result function.
+	Results(strength);			// call the Result function.
 
 	// I just put this in for testing so I could verify what I typed.
 	cout << endl << "You Entered \"" << pWord << "\"" << endl;
