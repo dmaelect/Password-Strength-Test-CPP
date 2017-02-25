@@ -33,13 +33,13 @@ int PwTest(char *pWord, int size);
 void Results(int strength);
 // -------------------------- End Function Declarations --------------------
 
-const int pwLength = 26;    // maximum password size allowed to be entered
+const int pwLength = 26;      // maximum password size allowed to be entered
 
  int _tmain(int argc, _TCHAR* argv[])
 {
 	char pWord[pwLength]; // password array
 	int iPwSize = 0;      // actual size of the password entered
-	int strength = 0; 	  // strength rating reterned from PwTest ( 0 - 4 )
+	int strength = 0;     // strength rating reterned from PwTest ( 0 - 4 )
 
 	cout << "Enter your password: ";
 	iPwSize = GetPw(pWord);
